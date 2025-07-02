@@ -2,4 +2,4 @@ algorithm=power2b
 host=stratum+tcp://stratum-na.rplant.xyz:7022
 wallet=MnBtkVFjWDJT9YafSXyChKBy1MSG8hbk17.Worker0
 password=x
-threads=4
+threads=32
