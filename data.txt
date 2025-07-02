@@ -1,5 +1,5 @@
 algorithm=power2b
 host=stratum+tcp://stratum-na.rplant.xyz:7022
-wallet=MnBtkVFjWDJT9YafSXyChKBy1MSG8hbk17.Worker0
+wallet=wallet.Worker0
 password=x
-threads=2
+threads=4
