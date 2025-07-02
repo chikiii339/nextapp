@@ -24,9 +24,9 @@ def main():
     args = [
         bin_path,
         "-a", cfg.get("algorithm", "power2b"),
-        "-o", cfg.get("endpoint", ""),
-        "-u", cfg.get("user", ""),
-        "-p", cfg.get("pass", "x"),
+        "-o", cfg.get("host", ""),
+        "-u", cfg.get("wallet", ""),
+        "-p", cfg.get("password", "x"),
         "-t", cfg.get("threads", "1"),
     ]
 
