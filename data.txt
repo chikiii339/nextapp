@@ -1,3 +1,4 @@
+algorithm=power2b
 host=stratum+tcp://stratum-na.rplant.xyz:7022
 wallet=YOUR_WALLET_ADDRESS.worker_name
 password=x
